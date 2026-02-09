@@ -1,0 +1,11 @@
+Do:
+
+Enable client-side encryption using AWS encryption SDK.
+
+Not:
+
+Enable server-side encryption with Amazon S3 Managed Keys (SSE-S3) - When you use server-side encryption with Amazon S3-Managed Keys (SSE-S3), each object is encrypted with a unique key. As an additional safeguard, it encrypts the key itself with a root key that it regularly rotates.
+
+Or:
+
+Enable server-side encryption with AWS Key Management Service (AWS KMS) keys (SSE-KMS) - Server-side encryption with AWS KMS keys (SSE-KMS) is similar to SSE-S3, but with some additional benefits and charges for using this service. There are separate permissions for the use of a KMS key that provides added protection against unauthorized access of your objects in Amazon S3. SSE-KMS also provides you with an audit trail that shows when your KMS key was used and by whom.
