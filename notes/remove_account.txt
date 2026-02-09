@@ -1,0 +1,19 @@
+The AWS account must be able to operate as a standalone account. Only then it can be removed from AWS organizations
+
+You can remove an account from your organization only if the account has the information that is required for it to operate as a standalone account. For each account that you want to make standalone, you must accept the AWS Customer Agreement, choose a support plan, provide and verify the required contact information, and provide a current payment method. AWS uses the payment method to charge for any billable (not AWS Free Tier) AWS activity that occurs while the account isn't attached to an organization.
+
+
+
+Not:
+
+
+
+Raise a support ticket with AWS Support to remove the account - AWS Support does not need to help you in removing an AWS account from AWS Organizations.
+
+The AWS account can be removed from AWS Systems Manager - AWS Systems Manager gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface so you can view operational data from multiple AWS services and allows you to automate operational tasks such as running commands, managing patches, and configuring servers across AWS Cloud as well as on-premises infrastructure. Systems Manager cannot be used to remove an AWS account from AWS Organizations.
+
+The AWS account must not have any Service Control Policies (SCPs) attached to it. Only then it can be removed from AWS organizations - This is not a pre-requisite to remove the AWS account. The principals in the AWS account are no longer affected by any service control policies (SCPs) that were defined in the organization. This means that restrictions imposed by those SCPs are gone, and the users and roles in the account might have more permissions than they had before.
+
+Reference:
+
+https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_accounts_remove.html
