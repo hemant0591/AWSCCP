@@ -1,0 +1,34 @@
+Which AWS service would you use for debugging a serverless application built using a microservices architecture?
+
+
+Correct option:
+
+
+
+AWS X-Ray
+
+You can use AWS X-Ray to analyze and debug serverless and distributed applications such as those built using a microservices architecture. With X-Ray, you can understand how your application and its underlying services are performing to identify and troubleshoot the root cause of performance issues and errors.
+
+How AWS X-Ray Works: 
+
+via -https://aws.amazon.com/xray/
+
+
+
+Incorrect options:
+
+
+
+AWS Trusted Advisor - AWS Trusted Advisor is an online tool that provides you real-time guidance to help you provision your resources following AWS best practices on cost optimization, security, fault tolerance, service limits and performance improvement. Whether establishing new workflows, developing applications, or as part of ongoing improvement, recommendations provided by Trusted Advisor regularly help keep your solutions provisioned optimally. Trusted Advisor cannot be used to debug performance issues for this serverless application built using a microservices architecture.
+
+Amazon Pinpoint - Amazon Pinpoint allows marketers and developers to deliver customer-centric engagement experiences by capturing customer usage data to draw real-time insights. Pinpoint cannot be used to debug performance issues for this serverless application built using a microservices architecture.
+
+AWS CloudFormation - AWS CloudFormation allows you to use programming languages or a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all Regions and accounts. Think infrastructure as code; think CloudFormation. CloudFormation cannot be used to debug performance issues for this serverless application built using a microservices architecture.
+
+How Amazon Pinpoint Works: 
+
+via -https://aws.amazon.com/pinpoint/Reference:
+
+https://aws.amazon.com/xray/
+
+
